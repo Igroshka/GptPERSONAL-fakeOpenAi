@@ -104,6 +104,14 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
+    name: "gpt-4-1106-preview",
+    available: true,
+  },
+  {
+    name: "gpt-4-vision-preview",
+    available: true,
+  },
+  {
     name: "gpt-3.5-turbo",
     available: true,
   },
@@ -113,6 +121,10 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-3.5-turbo-0613",
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo-1106",
     available: true,
   },
   {
