@@ -1,6 +1,6 @@
 import { BuiltinPlugin } from "./typing";
 
-export const EN_PLUGINS: BuiltinPlugin[] = [
+export const RU_PLUGINS: BuiltinPlugin[] = [
   {
     name: "WebSearch",
     toolName: "web-search",
