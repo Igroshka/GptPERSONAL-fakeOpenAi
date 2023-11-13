@@ -27,7 +27,7 @@ export enum Theme {
 export const DEFAULT_CONFIG = {
   lastUpdate: Date.now(), // timestamp, to merge state
 
-  submitKey: isMacOS() ? SubmitKey.MetaEnter : SubmitKey.Enter,
+  submitKey: isMacOS() ? SubmitKey.MetaEnter : SubmitKey.CtrlEnter,
   avatar: "1f603",
   fontSize: 14,
   theme: Theme.Auto as Theme,
@@ -48,7 +48,7 @@ export const DEFAULT_CONFIG = {
     model: "gpt-3.5-turbo" as ModelType,
     temperature: 0.5,
     top_p: 1,
-    max_tokens: 2000,
+    max_tokens: 5000,
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: true,
